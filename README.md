@@ -31,4 +31,13 @@ A degradation penalty proportional to `(1 - RUL)` is applied during charging and
 
 - `second_life_battery.ipynb` – Model training and dispatch simulation
 - `dispatch_data_DE_LU_2023_2024.csv` – Electricity market data
--  ‘Battery_Data’ - NASA battery data
+
+###  Battery Dataset Files (NASA Li-ion Aging Data)
+
+These files contain real-world battery cycle data, including voltage, current, capacity, and temperature over time. They are used as input to predict RUL.
+
+- `BatteryAgingARC-FY08Q4` – Data from initial aging experiments  
+- `BatteryAgingARC_25_26_27_28_P1` – Battery group 25–28, part 1  
+- `BatteryAgingARC_25-44` – Extended dataset covering batteries 25–44  
+- `BatteryAgingARC_45_46_47_48` – Later-stage cycling data from batteries 45–48  
+- `BatteryAgingARC_49_50_51_52` – Final group of tested batteries  
