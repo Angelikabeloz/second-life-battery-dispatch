@@ -30,4 +30,5 @@ A degradation penalty proportional to `(1 - RUL)` is applied during charging and
 ##  Repository Contents
 
 - `second_life_battery.ipynb` – Model training and dispatch simulation
-- `dispatch_data_DE_LU_2023_2024.csv
+- `dispatch_data_DE_LU_2023_2024.csv` – Electricity market data
+-  ‘Battery_Data’ - NASA battery data
